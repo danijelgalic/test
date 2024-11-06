@@ -17,7 +17,8 @@
  *
  * @version GIT: $Id$ Blob checksum.
  */
-final class Arr {
+final class Arr
+{
 
     private array $xxx = [];
 
