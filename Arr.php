@@ -17,14 +17,10 @@
  *
  * @version GIT: $Id$ Blob checksum.
  */
+final class Arr {
 
-class Arr {
+    private array $xxx = [];
 
-  private array $xxx = [];
+    public function groupBy (): void {}
 
-  public function groupBy ():void
-  {
-    
-  }
-  
 }
