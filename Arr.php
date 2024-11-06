@@ -20,6 +20,8 @@
 
 class Arr {
 
+  private array $xxx = [];
+
   public function groupBy ():void
   {
     
