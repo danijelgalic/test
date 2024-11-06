@@ -23,7 +23,7 @@ use PhpCsFixer\Runner\Parallel\ParallelConfigFactory;
 
 return (new Config)
     ->setParallelConfig(ParallelConfigFactory::detect())
-    ->setCacheFile(__DIR__.'/vendor/friendsofphp/.php-cs-fixer.cache')
+    ->setCacheFile(__DIR__.'.php-cs-fixer.cache')
     ->setRiskyAllowed(true)
     ->setRules([
         // alias
